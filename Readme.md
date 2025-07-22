@@ -59,7 +59,7 @@ services:
       VERSION: "10"
       USERNAME: ${WINDOWS_USERNAME}   # Usa un archivo .env para variables sensibles
       PASSWORD: ${WINDOWS_PASSWORD}   # Usa un archivo .env para variables sensibles
-      RAM_SIZE: "16G"
+      RAM_SIZE: "8G"
       CPU_CORES: "8"
     cap_add:
       - NET_ADMIN
